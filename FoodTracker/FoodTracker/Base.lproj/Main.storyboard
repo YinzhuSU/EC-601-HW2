@@ -26,7 +26,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="P1S-VH-ww0">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meal1" translatesAutoresizingMaskIntoConstraints="NO" id="P1S-VH-ww0">
                                             <rect key="frame" x="0.0" y="0.0" width="89" height="89"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
@@ -80,13 +80,13 @@
                                 <rect key="frame" x="0.0" y="84" width="375" height="429"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cMa-tc-zG6">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="119"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="69"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="SrW-sp-Wlk">
-                                        <rect key="frame" x="62.5" y="127" width="250" height="250"/>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meal1" translatesAutoresizingMaskIntoConstraints="NO" id="SrW-sp-Wlk">
+                                        <rect key="frame" x="37.5" y="77" width="300" height="300"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="SrW-sp-Wlk" secondAttribute="height" multiplier="1:1" id="uI0-Sv-VkT"/>
@@ -181,7 +181,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="defaultPhoto" width="250" height="250"/>
+        <image name="meal1" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Kyp-4v-oBi"/>
